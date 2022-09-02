@@ -1,10 +1,12 @@
 <h1 align="center">App de Receitas</h1>
 <p align="center">Aplicativo onde é possivel ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas e drinks!</p>
-<p align="center"> 
-  <img src="src/images/app.gif">
- </p>
 
-</br>
+---
+
+<p>Telas do Aplicativo.</p>
+<p align="center"> 
+  <img src="src/images/recipeApp.png">
+</p>
 
 ---
 
@@ -25,18 +27,6 @@ Os end-points são bastante ricos, você pode [vê-los aqui](https://www.themeal
 O [CockTailDB](https://www.themealdb.com/) é um banco de dados aberto de bebidas, mantido pela comunidade, com receitas e ingredientes de todo o mundo.
 Os end-points também são bastante ricos, você pode [vê-los aqui](https://www.thecocktaildb.com/api.php)
 
----
-
- <details>
-    <summary>Imagens do Aplicativo</summary>
-    </br>
-  <p>Exemplos de telas do Aplicativo.</p>
- <p align="center"> 
-  <img src="src/images/telas.jpg">
- </p>
- 
-  </details>
-  
 ---
 
   <details>
