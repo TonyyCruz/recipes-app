@@ -65,7 +65,7 @@ export default function DetailsInProgress() {
   };
 
   const copiedOnScreenTimer = () => {
-    const TEXT_TIMER = 5000;
+    const TEXT_TIMER = 1000;
     setCopied(true);
     const textTimeout = setTimeout(() => {
       setCopied(false);
@@ -74,7 +74,7 @@ export default function DetailsInProgress() {
   };
 
   const copyToClipboard = () => {
-    copy(`http://localhost:3000/${split[1]}/${split[2]}`);
+    copy(`https://andremarquezz.github.io/ProjetoAppReceitas/#/${split[2]}`);
     copiedOnScreenTimer();
   };
 
@@ -138,15 +138,33 @@ export default function DetailsInProgress() {
                   : recipeDetails.drinks[0].strDrink}
               </h1>
 
-              <button type="button" onClick={ () => copyToClipboard() }>
-                <img src={ shareIcon } alt="IconShare" data-testid="share-btn" />
+              <button
+                type="button"
+                onClick={ () => copyToClipboard() }
+                className="button-share-link"
+              >
+                {copied ? (
+                  <strong>Link copied!</strong>
+                ) : (
+                  <img
+                    className="icons-action"
+                    src={ shareIcon }
+                    alt="IconShare"
+                    data-testid="share-btn"
+                  />
+                )}
               </button>
-              {copied && <h1>Link copied!</h1>}
-              <button type="button" onClick={ () => btnFavorite() }>
+
+              <button
+                type="button"
+                onClick={ () => btnFavorite() }
+                className="button-action-liked"
+              >
                 <img
                   src={ buttonControl.favorite ? blackHeartIcon : haertIcon }
                   alt="IconHaert"
                   data-testid="favorite-btn"
+                  className="icons-action-favorites"
                 />
               </button>
             </div>
