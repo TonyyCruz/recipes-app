@@ -12,8 +12,6 @@
 
 ### 💻 Sobre o Projeto
 
----
-
 <p>Um aplicativo de receitas que tem como base de dados 2 APIs distintas, uma para comidas e outra para bebidas. No aplicativo é possível ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas e drinks e caso o usuario saia da aplicação é possivel continuar de onde foi pausada.</p>
 
 ## APIs
@@ -35,7 +33,7 @@ Os end-points também são bastante ricos, você pode [vê-los aqui](https://www
   <p>Utilizamos o método Kanban em conjunto com a ferramenta trello e o layout foi construido no figma e tem como foco dispositivos móveis, durante o desenvolvimento foi utilizado a resolução 360 x 640.</p>
 <p>Realizamos DMs até a conclusão do projeto no Zoom, para alinhamentos e merge, toda a comunicação assincrona durante o dia de projeto foi feito com a ferramenta Slack</p>
   </details>
-
+  
 ---
 
  </br>
@@ -59,8 +57,6 @@ Os end-points também são bastante ricos, você pode [vê-los aqui](https://www
  </br>
 
 # 🚀 Como executar o projeto
-
----
 
 ## Pré-requisitos
 
@@ -98,4 +94,4 @@ npm test
 
 Time incrivel, espero trabalhar com eles novamente!
 
-*Diego Santos*, *André Marquez*, *Pedro Reis* e *Gabriel Rodrigues*.
+## *André Marquez*, *Diego Santos*, *Gabriel Rodrigues* e *Pedro Reis*.
