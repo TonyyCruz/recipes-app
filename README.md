@@ -95,4 +95,16 @@ npm test
 
 Time incrivel, espero trabalhar com eles novamente!
 
-## *André Marquez*, *Diego Santos*, *Gabriel Rodrigues* e *Pedro Reis*.
+## Desenvolvimento
+André Marquez, Anthony Cryz e Pedro Reis.
+
+---
+
+## Estilização
+Diego Santos
+
+---
+
+## Testes 
+
+Gabriel Rodrigues
