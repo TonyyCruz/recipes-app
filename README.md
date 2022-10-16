@@ -1,5 +1,5 @@
 <h1 align="center">App de Receitas</h1>
-<p align="center">Aplicativo onde é possivel ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas e drinks!</p>
+<p align="center">O app de Receitas é um aplicativo onde é possivel ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas e drinks!</p>
 
 ---
 
